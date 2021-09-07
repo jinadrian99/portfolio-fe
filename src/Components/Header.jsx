@@ -1,11 +1,18 @@
-import { Button, Col, Row } from 'antd';
-import React from 'react'
+import { Button, Col, Row, Tooltip } from 'antd';
+import React, { useEffect, useState } from 'react'
 
-export default function Header() {
+export default function Header(props) {
     var logo = `https://firebasestorage.googleapis.com/v0/b/porfolio-hiraadrian.appspot.com/o/local%2Ficon-Adrian.png?alt=media&token=935e24f9-38cd-47e1-bcab-2f2321ae6dee`;   
     var avatar = `https://mattfarley.ca/img/mf-avatar.svg`;
     var deskLine = `https://firebasestorage.googleapis.com/v0/b/porfolio-hiraadrian.appspot.com/o/local%2Fdesk_violet.svg?alt=media&token=6c539a87-7db8-4151-b441-c6f8843d4ec0`;
     // var deskLine = `https://firebasestorage.googleapis.com/v0/b/porfolio-hiraadrian.appspot.com/o/local%2FDesk%20Setup%2004.jpg?alt=media&token=56187a30-e10d-46dc-b5ec-afb1f5b1e4e3`;
+    const [seeInfo, setSeeInfo] = useState(false);
+    useEffect(() => {
+        props.onIsShowInfo(seeInfo);
+        if(seeInfo){
+            window.scrollTo(0, window.innerHeight);
+        }
+    }, [seeInfo]);
     return (
         <>
             <Row className="header pt-30">
@@ -15,9 +22,11 @@ export default function Header() {
                 </Col>
                 <Col xs={0} md={10} />
                 <Col xs={24} md={6} className="pt-20 pb-20">
-                    <Button shape="round" className="btn-violet btn-hello" size="large">
-                        Hello, I'm Adrian
-                    </Button>
+                    <Tooltip title="Click to see my info" color="#684B8A"  placement="right">
+                        <Button shape="round" onClick={() => setSeeInfo(!seeInfo)} className="btn-violet btn-hello" size="large">
+                            Hello, I'm Adrian
+                        </Button>
+                    </Tooltip>
                 </Col>
                 <Col xs={0} md={1} />
             </Row>
