@@ -46,13 +46,28 @@ var data = [
         tech: [
             "ReactJS",
             "Class component",
-            "CSS",
+            "CSS3",
             "Github Page",
         ],
         urlImg: "https://firebasestorage.googleapis.com/v0/b/porfolio-hiraadrian.appspot.com/o/imgDemo%2FA%CC%89nh%20chu%CC%A3p%20Ma%CC%80n%20hi%CC%80nh%202021-09-08%20lu%CC%81c%201.40.23%20CH.png?alt=media&token=bc469f08-e01d-416c-b5d3-2da87ce2a009",
-        urlDemo: "jinadrian99.github.io/rjs_01/",
+        urlDemo: "https://jinadrian99.github.io/rjs_01/",
         urlGit: [
             "https://github.com/jinadrian99/rjs_01"
+        ]
+    },
+    {
+        projectName: "Fine art shop.",
+        createAt: 2019,
+        desc: "Dự án tạo ra nhằm mục đích giúp mình vận dụng các kiến thức HTML5 và CSS3 cùng với Bootstrap vào trong project, dự án làm ra cho nhu cầu khách hàng cần và mong muốn được mua các loại sản phẩm họa cụ một cách trực tuyến và tiện lợi.",
+        tech: [
+            "HTML5",
+            "CSS3",
+            "Bootstrap"
+        ],
+        urlImg: "https://firebasestorage.googleapis.com/v0/b/porfolio-hiraadrian.appspot.com/o/imgDemo%2FA%CC%89nh%20chu%CC%A3p%20Ma%CC%80n%20hi%CC%80nh%202021-09-08%20lu%CC%81c%202.18.54%20CH.png?alt=media&token=e269e939-5d90-46c6-90cd-e75f54c678cf",
+        urlDemo: "https://jinadrian99.github.io/fineArtShop/",
+        urlGit: [
+            "https://github.com/jinadrian99/fineArtShop"
         ]
     }
 ];
