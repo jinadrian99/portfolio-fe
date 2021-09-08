@@ -200,8 +200,29 @@
 }
 
 .avatar {
+  display: inline-block;
+  position: relative;
+  width: 210px;
+  margin: 2rem 0;
+}
+/* 
+.avatar {
   margin: 2rem 0;
   width: 210px;
+  transform: 2s translate;
+} */
+
+.avatar .avatar-front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  transition: opacity 1s;
+  opacity: 1;
+}
+
+.avatar:hover .avatar-front{
+  opacity: 0;
 }
 
 .desk-line {
@@ -222,8 +243,6 @@
 .ant-card:hover{
   background-color: whitesmoke !important;
 }
-
-
 
 .card-border {
   min-height: 240px;
