@@ -157,7 +157,15 @@
   color: #7411F7 !important;
 }
 
-.btn-violet:hover, .btn-violet:focus {
+.btn-violet-demo {
+  width: 100%;
+  border: 2px solid #7411F7 !important;
+  height: 36px !important;
+  font-size: 13px !important;
+  color: #7411F7 !important;
+}
+
+.btn-violet:hover, .btn-violet:focus, .btn-violet-demo:hover, .btn-violet-demo:focus {
   border: 2px solid #7411F7 !important;
   background-color: #7411F7 !important;
   color: white !important;
@@ -204,4 +212,46 @@
 .icon-contact a {
   text-decoration: none;
   color: black !important;
+}
+
+.icon-ui a {
+  text-decoration: none;
+  color: #684B8A !important;
+}
+
+.ant-card:hover{
+  background-color: whitesmoke !important;
+}
+
+
+
+.card-border {
+  min-height: 240px;
+  border: 1.5px solid #684B8A !important;
+  border-radius: 13px !important;
+  overflow: hidden;
+}
+
+.card-border:hover {
+  border: 1.5px solid rgba(115, 17, 247, 0.6) !important;
+}
+
+.card-project .ant-card-body {
+  padding: 0;
+}
+
+.card-project .card-box-img {
+  width: 100%; 
+  height: 240px;
+  overflow: hidden;
+  border-radius: 13px
+}
+
+.card-project img{
+  border-radius: 13px !important;
+  display: block;
+  top: 0%;
+  position: relative;
+  object-fit: cover;
+  width: 100%;
 }

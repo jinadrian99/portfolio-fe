@@ -3,6 +3,7 @@ import Content from './Content';
 import Header from './Header';
 import Footer from './Footer';
 import Intro from './Intro';
+import { BackTop } from 'antd';
 
 export default function Page() {
     const [seeInfo, setSeeInfo] = useState(false);
@@ -12,6 +13,7 @@ export default function Page() {
     }
     return (
         <div className="App">
+            <BackTop />
             <div style={{minHeight: "100vh"}}>
                 <Header onIsShowInfo={onIsShowInfo} />
             </div>

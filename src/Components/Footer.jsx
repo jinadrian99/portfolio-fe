@@ -16,7 +16,7 @@ export default function Footer() {
             <Row className="mb-20">
                 <Col xs={10} md={10} />
                 <Col xs={4} md={4} className="pt-50 pb-20 icon-contact">
-                    <a href="https://github.com/jinadrian99" target="_blank"><AiOutlineGithub style={{fontSize: "40px", marginRight: "15px"}} /></a>
+                    <a href="https://github.com/jinadrian99" target="_blank" rel="noreferrer"><AiOutlineGithub style={{fontSize: "40px", marginRight: "15px"}} /></a>
                     <a href="mailto:quochungtran321@gmail.com"><FiMail style={{fontSize: "40px", marginRight: "15px"}} /></a>
                     <a href="tel:0789991876"><FiPhoneCall style={{fontSize: "38px"}} /></a>
                 </Col>
@@ -28,8 +28,8 @@ export default function Footer() {
                 </Col>
             </Row>
             <Row className="mb-20">
-                <Col xs={24} md={24}>
-                    <span style={{fontSize: "16px", color: "#684B8A"}}>Made with <AiOutlineAntDesign style={{fontSize: "23px"}}/> Ant Design</span>
+                <Col xs={24} md={24} className="icon-ui">
+                    <span style={{fontSize: "16px", color: "#684B8A"}}>Made with <a href="https://ant.design/" target="_blank" rel="noreferrer"><AiOutlineAntDesign style={{fontSize: "23px"}}/> Ant Design</a></span>
                 </Col>
             </Row>
             </>

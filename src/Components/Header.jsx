@@ -10,9 +10,9 @@ export default function Header(props) {
     useEffect(() => {
         props.onIsShowInfo(seeInfo);
         if(seeInfo){
-            window.scrollTo(0, window.innerHeight);
+            window.scrollTo(0, window.innerHeight * 0.65);
         }
-    }, [seeInfo]);
+    }, [seeInfo, props]);
     return (
         <>
             <Row className="header pt-30">
@@ -22,7 +22,7 @@ export default function Header(props) {
                 </Col>
                 <Col xs={0} md={10} />
                 <Col xs={24} md={6} className="pt-20 pb-20">
-                    <Tooltip title="Click to see my info" color="#684B8A"  placement="right">
+                    <Tooltip title={ seeInfo ? "Click to close my info" : "Click to see my info" } color="#684B8A"  placement="right">
                         <Button shape="round" onClick={() => setSeeInfo(!seeInfo)} className="btn-violet btn-hello" size="large">
                             Hello, I'm Adrian
                         </Button>
