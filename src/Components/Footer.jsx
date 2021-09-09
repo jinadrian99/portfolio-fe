@@ -14,13 +14,13 @@ export default function Footer() {
                 </Col>
             </Row>
             <Row className="mb-20">
-                <Col xs={10} md={10} />
-                <Col xs={4} md={4} className="pt-50 pb-20 icon-contact">
+                <Col xs={5} md={10} />
+                <Col xs={14} md={4} className="pt-50 pb-20 icon-contact">
                     <a href="https://github.com/jinadrian99" target="_blank" rel="noreferrer"><AiOutlineGithub style={{fontSize: "40px", marginRight: "15px"}} /></a>
                     <a href="mailto:quochungtran321@gmail.com"><FiMail style={{fontSize: "40px", marginRight: "15px"}} /></a>
                     <a href="tel:0789991876"><FiPhoneCall style={{fontSize: "38px"}} /></a>
                 </Col>
-                <Col xs={10} md={10} />
+                <Col xs={5} md={10} />
             </Row>
             <Row className="mb-10">
                 <Col xs={24} md={24}>

@@ -205,12 +205,6 @@
   width: 210px;
   margin: 2rem 0;
 }
-/* 
-.avatar {
-  margin: 2rem 0;
-  width: 210px;
-  transform: 2s translate;
-} */
 
 .avatar .avatar-front {
   position: absolute;
@@ -228,6 +222,7 @@
 .desk-line {
   max-width: 90%;
   /* max-width: 30%; */
+  src: url('https://firebasestorage.googleapis.com/v0/b/porfolio-hiraadrian.appspot.com/o/local%2Fdesk_violet.svg?alt=media&token=6c539a87-7db8-4151-b441-c6f8843d4ec0');
 }
 
 .icon-contact a {

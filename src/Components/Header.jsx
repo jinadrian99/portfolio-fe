@@ -53,7 +53,7 @@ export default function Header(props) {
                                 <img src={avatarBack} className="avatar-back" alt="Avatar" />
                             </Col>
                         </Row>
-                        <Row justify="center" style={{paddingTop: "2.5rem"}}>
+                        <Row justify="center pt-20">
                             <Col>
                                 <img src={deskLine} className="desk-line" alt="Desk line violet" />
                             </Col>
@@ -61,7 +61,7 @@ export default function Header(props) {
                     </div>
                 </Col>
                 <Col xs={1} md={1} />
-                <Col xs={22} md={0} >
+                <Col xs={22} md={0}>
                     <p hidden>Content header homepage for phone</p>
                     <div style={{ maxHeight: '100vh' }}>
                         <Row className="mt-50" justify="center">
@@ -81,11 +81,11 @@ export default function Header(props) {
                                 <img src={avatarBack} className="avatar-back" alt="Avatar" />
                             </Col>
                         </Row>
-                        <Row justify="center" style={{paddingTop: "2.5rem"}}>
+                        {/* <Row justify="center pt-20">
                             <Col>
                                 <img src={deskLine} className="desk-line" alt="Desk line violet" />
                             </Col>
-                        </Row> 
+                        </Row>  */}
                     </div>
                 </Col>
                 <Col xs={1} md={0} />

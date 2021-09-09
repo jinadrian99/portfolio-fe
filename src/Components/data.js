@@ -1,8 +1,11 @@
 var data = [
     {
-        projectName: "Booking hotel online.",
+        projectName: "Booking hotel online (New version).",
         createAt: 2021,
-        desc: "Dự án tạo ra nhằm mục đích giúp cho khách hàng có thể đặt phòng, check in, tham khảo các loại phòng và giá của chúng hôm nay một cách trực tuyến và cũng có thể đến khách sạn đền đặt phòng, đặt dịch vụ và bộ phận nhân viên có thể quản lý quá trình check in, check out tương đối dễ dàng và theo dỏi tiến độ khách sạn.",
+        desc: `
+        Dự án tạo ra nhằm mục đích giúp cho khách hàng có trải nghiệm cơ bản của một website đặt phòng như check in, tham khảo các loại phòng và giá của chúng hôm nay một cách trực quan. 
+        Người dùng sử dụng website để đến khách sạn đặt phòng hoặc sử dụng dịch vụ, có thêm hỗ trợ phụ thu phí mà khách sạn cung cấp.
+        Website cũng có trang quản trị hỗ trợ bộ phận nhân viên theo dõi quá trình check in, check out,... tương đối dễ dàng và nắm được tiến độ phát triển của khách sạn.`,
         tech: [
             "ReactJS",
             "Function component",
@@ -12,7 +15,8 @@ var data = [
             "Axios",
             "Firebase",
             "Heroku",
-            "Netlify"
+            "Netlify",
+            "Paypal"
         ],
         urlImg: "https://firebasestorage.googleapis.com/v0/b/porfolio-hiraadrian.appspot.com/o/imgDemo%2FPicture1.png?alt=media&token=3387d671-0f44-48be-a239-91d20600dddd",
         urlDemo: "https://nativecity.tk/",
@@ -24,7 +28,7 @@ var data = [
     {
         projectName: "Booking hotel online.",
         createAt: 2020,
-        desc: "Dự án tạo ra nhằm mục đích giúp cho khách hàng có thể đặt phòng, check in, tham khảo các loại phòng và giá của chúng hôm nay một cách trực tuyến và bộ phận nhân viên có thể quản lý quá trình check in, check out tương đối dễ dàng.",
+        desc: "Dự án tạo ra nhằm mục đích giúp cho khách hàng có thể đặt phòng, check in, tham khảo các loại phòng và giá của chúng hôm nay một cách trực quan và bộ phận nhân viên có thể quản lý hệ thống tương đối dễ dàng.",
         tech: [
             "ReactJS",
             "Class component",
