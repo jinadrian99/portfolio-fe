@@ -199,10 +199,17 @@
   font-size: 1.3rem;
 }
 
+.avatar .avatar-front, .avatar .avatar-back{
+  width: 210px;
+  /* height: 100%; */
+}
+
+
 .avatar {
   display: inline-block;
   position: relative;
-  width: 210px;
+  /* width: 210px; */
+  height: 20vh;
   margin: 2rem 0;
 }
 
@@ -220,10 +227,10 @@
 }
 
 .desk-line {
-  /* max-width: 90%; */
+  max-width: 90%;
   /* max-width: 30%; */
   /* width: 100px; */
-  height: 23vh;
+  /* height: 70%; */
 }
 
 .icon-contact a {

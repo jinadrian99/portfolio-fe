@@ -47,23 +47,25 @@ export default function Header(props) {
                                 <span className="text-title minimize-font">I design, code beautifully simple things also responsibility with my project, and I love what I do.</span>
                             </Col>
                         </Row>   
-                        <Row justify="center">
+                        <Row justify="center mt-30 mb-30" style={{height: "250px"}}>
                             <Col className="avatar">
-                                <img src={avatarFront} className="avatar-front" alt="Avatar" />
-                                <img src={avatarBack} className="avatar-back" alt="Avatar" />
+                                <div>
+                                    <img src={avatarFront} className="avatar-front" alt="Avatar" />
+                                    <img src={avatarBack} className="avatar-back" alt="Avatar" />
+                                </div>
                             </Col>
                         </Row>
-                        {/* <Row justify="center pt-20">
+                        <Row justify="center pt-20">
                             <Col>
                                 <img src={deskLine} className="desk-line" alt="Desk line violet" />
                             </Col>
-                        </Row>  */}
+                        </Row> 
                     </div>
                 </Col>
                 <Col xs={1} md={1} />
                 <Col xs={22} md={0}>
                     <p hidden>Content header homepage for phone</p>
-                    <div style={{ maxHeight: '100vh' }}>
+                    <div>
                         <Row className="mt-50" justify="center">
                             <Col>
                                 <span className="xs-text-title">
@@ -75,21 +77,30 @@ export default function Header(props) {
                                 <span className="xs-text-title xs-minimize-font">I design, code beautifully simple things also responsibility with my project, and I love what I do.</span>
                             </Col>
                         </Row>   
-                        <Row justify="center">
+                        <Row justify="center" style={{height: "250px"}}>
                             <Col className="avatar">
-                                <img src={avatarFront} className="avatar-front" alt="Avatar" />
-                                <img src={avatarBack} className="avatar-back" alt="Avatar" />
+                                <div>
+                                    <img src={avatarFront} className="avatar-front" alt="Avatar" />
+                                    <img src={avatarBack} className="avatar-back" alt="Avatar" />
+                                </div>
                             </Col>
                         </Row>
-                    </div>
-                </Col>
-                <Col xs={1} md={0} />
-            </Row>
                         <Row justify="center pt-20">
                             <Col>
                                 <img src={deskLine} className="desk-line" alt="Desk line violet" />
                             </Col>
                         </Row> 
+                    </div>
+                </Col>
+                <Col xs={1} md={0} />
+            </Row>
+            {/* <Row justify="center mt-30">
+                <Col>
+                    <div style={{height: '30vh'}}>
+                        <img src={deskLine} className="desk-line" alt="Desk line violet" />
+                    </div>
+                </Col>
+            </Row>  */}
         </>
     )
 }
