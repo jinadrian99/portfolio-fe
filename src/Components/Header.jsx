@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 export default function Header(props) {
     var logo = `https://firebasestorage.googleapis.com/v0/b/porfolio-hiraadrian.appspot.com/o/local%2Ficon-Adrian.png?alt=media&token=935e24f9-38cd-47e1-bcab-2f2321ae6dee`;   
     var avatarFront = `https://firebasestorage.googleapis.com/v0/b/porfolio-hiraadrian.appspot.com/o/local%2FAvatar_03.png?alt=media&token=ebf76a85-3409-4f94-83cb-cf28763ac01c`;
-    var avatarBack = `https://firebasestorage.googleapis.com/v0/b/porfolio-hiraadrian.appspot.com/o/local%2FAvatar_03_01.png?alt=media&token=bb0c28b1-7ef5-40f2-82c4-29e8251d205d`;
+    var avatarBack = `https://firebasestorage.googleapis.com/v0/b/porfolio-hiraadrian.appspot.com/o/local%2FAvatar_03_01.png?alt=media&token=1052b716-a646-4de5-960c-2750546f02bb`;
     var deskLine = `https://firebasestorage.googleapis.com/v0/b/porfolio-hiraadrian.appspot.com/o/local%2Fdesk_violet.svg?alt=media&token=6c539a87-7db8-4151-b441-c6f8843d4ec0`;
     // var deskLine = `https://firebasestorage.googleapis.com/v0/b/porfolio-hiraadrian.appspot.com/o/local%2FDesk%20Setup%2004.jpg?alt=media&token=56187a30-e10d-46dc-b5ec-afb1f5b1e4e3`;
     const [seeInfo, setSeeInfo] = useState(false);
