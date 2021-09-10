@@ -53,11 +53,11 @@ export default function Header(props) {
                                 <img src={avatarBack} className="avatar-back" alt="Avatar" />
                             </Col>
                         </Row>
-                        <Row justify="center pt-20">
+                        {/* <Row justify="center pt-20">
                             <Col>
                                 <img src={deskLine} className="desk-line" alt="Desk line violet" />
                             </Col>
-                        </Row> 
+                        </Row>  */}
                     </div>
                 </Col>
                 <Col xs={1} md={1} />
@@ -81,15 +81,15 @@ export default function Header(props) {
                                 <img src={avatarBack} className="avatar-back" alt="Avatar" />
                             </Col>
                         </Row>
-                        {/* <Row justify="center pt-20">
-                            <Col>
-                                <img src={deskLine} className="desk-line" alt="Desk line violet" />
-                            </Col>
-                        </Row>  */}
                     </div>
                 </Col>
                 <Col xs={1} md={0} />
             </Row>
+                        <Row justify="center pt-20">
+                            <Col>
+                                <img src={deskLine} className="desk-line" alt="Desk line violet" />
+                            </Col>
+                        </Row> 
         </>
     )
 }
