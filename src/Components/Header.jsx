@@ -11,7 +11,7 @@ export default function Header(props) {
     useEffect(() => {
         props.onIsShowInfo(seeInfo);
         if(seeInfo){
-            window.scrollTo(0, window.innerHeight * 0.65);
+            window.location.href = "#intro";
         }
     }, [seeInfo, props]);
     return (

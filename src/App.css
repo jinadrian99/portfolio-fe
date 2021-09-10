@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
 }
@@ -171,6 +175,8 @@
   color: white !important;
 }
 
+
+
 .text-title{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 3rem;
@@ -203,7 +209,6 @@
   width: 210px;
   /* height: 100%; */
 }
-
 
 .avatar {
   display: inline-block;
