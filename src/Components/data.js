@@ -16,6 +16,7 @@ var data = [
             "Firebase",
             "Heroku",
             "Netlify",
+            "Clever Cloud",
             "Paypal"
         ],
         urlImg: "https://firebasestorage.googleapis.com/v0/b/porfolio-hiraadrian.appspot.com/o/imgDemo%2FPicture1.png?alt=media&token=3387d671-0f44-48be-a239-91d20600dddd",
@@ -35,10 +36,11 @@ var data = [
             "Laravel",
             "Reactstrap",
             "Axios",
-            "Heroku"
+            "Heroku",
+            "Clever Cloud",
         ],
-        urlImg: "https://firebasestorage.googleapis.com/v0/b/porfolio-hiraadrian.appspot.com/o/imgDemo%2FPicture1.png?alt=media&token=3387d671-0f44-48be-a239-91d20600dddd",
-        urlDemo: "https://nativecity.tk/",
+        urlImg: "https://firebasestorage.googleapis.com/v0/b/porfolio-hiraadrian.appspot.com/o/imgDemo%2FA%CC%89nh%20chu%CC%A3p%20Ma%CC%80n%20hi%CC%80nh%202021-09-12%20lu%CC%81c%209.31.15%20CH.png?alt=media&token=cc9ded7a-10c5-47ec-9c29-db752483768c",
+        urlDemo: "https://nativect.herokuapp.com/",
         urlGit: [
             "https://github.com/jinadrian99/nativect"
         ]
