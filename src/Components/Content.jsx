@@ -70,9 +70,6 @@ function DisplayInfo(props) {
                 </Col>
                 <Col xs={1} md={1} lg={1} />
             </Row>
-            <Row >
-
-            </Row>
         </div>
     )
 }
@@ -80,7 +77,7 @@ function DisplayInfo(props) {
 export default function Content() {
     console.log(data);
     return (
-        <div style={{backgroundColor: '#7411F7', color: 'white'}} className="pt-50 pb-50">
+        <div style={{backgroundColor: '#5b23a4', color: 'white'}} className="pt-50 pb-50">
             <Row>
                 <Col xs={0} md={1}></Col>
                 <Col xs={0} md={22}>
