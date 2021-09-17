@@ -45,8 +45,12 @@ function DisplayInfo(props) {
                                 }
                             </Row>
                         </> : <>
-                            <p style={{padding: "5px 25px"}}>
-                            {props.item.desc}
+                            <p style={{padding: "5px 25px 0px 25px"}}>
+                                {props.item.desc}
+                            </p>
+                            <p style={{padding: "0px 25px", textAlign: "left"}}>
+                                - Team size: { props.item.teamSize } <br />
+                                - Role: { props.item.role }
                             </p>
                         </>
                     }

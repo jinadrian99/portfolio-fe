@@ -6,8 +6,12 @@ var data = [
         Dự án tạo ra nhằm mục đích giúp cho khách hàng có trải nghiệm cơ bản của một website đặt phòng như check in, tham khảo các loại phòng và giá của chúng hôm nay một cách trực quan. 
         Người dùng sử dụng website để đến khách sạn đặt phòng hoặc sử dụng dịch vụ, có thêm hỗ trợ phụ thu phí mà khách sạn cung cấp.
         Website cũng có trang quản trị hỗ trợ bộ phận nhân viên theo dõi quá trình check in, check out,... tương đối dễ dàng và nắm được tiến độ phát triển của khách sạn.`,
+        teamSize: 2,
+        role: 'Fullstack developer',
         tech: [
             "ReactJS",
+            "Create react app",
+            "React Hooks",
             "Function component",
             "NodeJS",
             "Redux",
@@ -30,8 +34,11 @@ var data = [
         projectName: "Booking hotel online.",
         createAt: 2020,
         desc: "Dự án tạo ra nhằm mục đích giúp cho khách hàng có thể đặt phòng, check in, tham khảo các loại phòng và giá của chúng hôm nay một cách trực quan và bộ phận nhân viên có thể quản lý hệ thống tương đối dễ dàng.",
+        teamSize: 2,
+        role: 'Fullstack developer',
         tech: [
             "ReactJS",
+            "Composer",
             "Class component",
             "Laravel",
             "Reactstrap",
@@ -49,6 +56,8 @@ var data = [
         projectName: "Change color paragraph.",
         createAt: 2019,
         desc: "Dự án tạo ra nhằm mục đích giúp mình vận dụng các kiến thức cơ bản React vào trong project trước khi cọ sát vào dự án lớn hơn, thử tìm tòi và sử dụng github ko chỉ dành cho việc lưu giữ repo mà còn là nơi để deploy.",
+        teamSize: 1,
+        role: 'Frontend developer',
         tech: [
             "ReactJS",
             "Class component",
@@ -65,6 +74,8 @@ var data = [
         projectName: "Fine art shop.",
         createAt: 2019,
         desc: "Dự án tạo ra nhằm mục đích giúp mình vận dụng các kiến thức HTML5 và CSS3 cùng với Bootstrap vào trong project, dự án làm ra cho nhu cầu khách hàng cần và mong muốn được mua các loại sản phẩm họa cụ một cách trực tuyến và tiện lợi.",
+        teamSize: 1,
+        role: 'Frontend developer',
         tech: [
             "HTML5",
             "CSS3",
