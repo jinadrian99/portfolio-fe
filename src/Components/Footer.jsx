@@ -2,6 +2,7 @@ import { Col, Row } from 'antd';
 import React from 'react';
 import {AiOutlineGithub, AiOutlineAntDesign} from 'react-icons/ai';
 import {FiMail, FiPhoneCall} from 'react-icons/fi';
+import {FaLinkedin} from 'react-icons/fa';
 
 export default function Footer() {
     var logo = `https://firebasestorage.googleapis.com/v0/b/porfolio-hiraadrian.appspot.com/o/local%2Ficon-Adrian.png?alt=media&token=935e24f9-38cd-47e1-bcab-2f2321ae6dee`;   
@@ -14,13 +15,14 @@ export default function Footer() {
                 </Col>
             </Row>
             <Row className="mb-20">
-                <Col xs={5} md={10} />
-                <Col xs={14} md={4} className="pt-50 pb-20 icon-contact">
+                <Col xs={5} md={5} />
+                <Col xs={14} md={14} className="pt-50 pb-20 icon-contact">
+                    <a href="https://www.linkedin.com/in/tran-quoc-hung-65b855182/" target="_blank" rel="noreferrer"><FaLinkedin style={{fontSize: "40px", marginRight: "15px"}} /></a>
                     <a href="https://github.com/jinadrian99" target="_blank" rel="noreferrer"><AiOutlineGithub style={{fontSize: "40px", marginRight: "15px"}} /></a>
                     <a href="mailto:quochungtran321@gmail.com"><FiMail style={{fontSize: "40px", marginRight: "15px"}} /></a>
                     <a href="tel:0789991876"><FiPhoneCall style={{fontSize: "38px"}} /></a>
                 </Col>
-                <Col xs={5} md={10} />
+                <Col xs={5} md={5} />
             </Row>
             <Row className="mb-10">
                 <Col xs={24} md={24}>
