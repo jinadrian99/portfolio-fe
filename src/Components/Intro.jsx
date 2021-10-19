@@ -7,7 +7,7 @@ export default function Intro(props) {
         setSeeInfo(props.seeInfo);
     }, [props]);
     return (
-        <div style={{backgroundColor: '#7411F7', color: 'white'}} id="intro">
+        <div style={{backgroundColor: '#5b23a4', color: 'white'}} id="intro">
         {
             seeInfo && (
                 <>
