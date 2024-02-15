@@ -24,7 +24,7 @@ var data = [
             "Paypal"
         ],
         urlImg: "https://firebasestorage.googleapis.com/v0/b/porfolio-hiraadrian.appspot.com/o/imgDemo%2FPicture1.png?alt=media&token=3387d671-0f44-48be-a239-91d20600dddd",
-        urlDemo: "https://nativecity.tk/",
+        urlDemo: "https://nativecity.netlify.app/",
         urlGit: [
             "https://github.com/jinadrian99/send_native_fe",
             "https://github.com/jinadrian99/send_native_be"
